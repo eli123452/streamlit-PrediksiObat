@@ -1,6 +1,8 @@
 streamlit
-pandas
-numpy
 scikit-learn
 plotly
 openpyxl
+pandas==2.3.1
+numpy==2.3.1
+pytz==2025.2
+pip==25.1.1

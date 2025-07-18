@@ -1,0 +1,39 @@
+
+    /* Main background */
+    .stApp {
+        background-color: #ffffff;
+    }
+
+    /* Sidebar style */
+    [data-testid="stSidebar"] {
+        background-color: #a8e6cf;
+    }
+    
+    /* Tombol */
+    .stButton>button {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        font-family: 'sans-serif';
+    }
+    .stButton>button:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    /* Box container (div) */
+    .css-1r6slb0 { /* Kelas CSS Streamlit untuk kontainer utama */
+        border-radius: 15px;
+    }
+
+    /* Tabel, Grafik, etc. */
+    .stDataFrame, .stPlotlyChart {
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+        padding: 15px;
+    }
+    
+    /* Header di sidebar */
+    [data-testid="stSidebar"] .css-1d391kg {
+        color: #1a5d57;
+    }
+    
